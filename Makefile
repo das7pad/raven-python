@@ -3,7 +3,7 @@ bootstrap:
 
 test: bootstrap lint
 	@echo "Running Python tests"
-	py.test -f tests
+	py.test tests
 	@echo ""
 
 lint:
